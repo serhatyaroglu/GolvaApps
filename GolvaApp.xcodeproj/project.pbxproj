@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		79ADF22E27E88919002229DD /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79ADF22D27E88919002229DD /* DetailVC.swift */; };
+		79ADF23227E89607002229DD /* sheetDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79ADF23127E89607002229DD /* sheetDetailVC.swift */; };
+		79ADF23427E8A6C7002229DD /* photoDetailCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79ADF23327E8A6C7002229DD /* photoDetailCollectionViewCell.swift */; };
+		79ADF24327E8B9E6002229DD /* GoogleMaps in Frameworks */ = {isa = PBXBuildFile; productRef = 79ADF24227E8B9E6002229DD /* GoogleMaps */; };
+		79ADF24527E8B9E6002229DD /* GooglePlaces in Frameworks */ = {isa = PBXBuildFile; productRef = 79ADF24427E8B9E6002229DD /* GooglePlaces */; };
+		79B6932527E5E4F300AF3FBA /* SliderCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B6932427E5E4F300AF3FBA /* SliderCollectionViewCell.swift */; };
+		79B6932727E5E67300AF3FBA /* fotoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B6932627E5E67300AF3FBA /* fotoData.swift */; };
+		79C0456627F1C91D002DAC4C /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C0456527F1C91D002DAC4C /* ListTableViewCell.swift */; };
+		79C0456827F1C93A002DAC4C /* ListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C0456727F1C93A002DAC4C /* ListVC.swift */; };
+		79CA9F6527EF123300636707 /* RezervasyonVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CA9F6427EF123300636707 /* RezervasyonVC.swift */; };
 		79D73C2527E1E6B6005FB1FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D73C2427E1E6B6005FB1FA /* AppDelegate.swift */; };
 		79D73C2727E1E6B6005FB1FA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D73C2627E1E6B6005FB1FA /* SceneDelegate.swift */; };
 		79D73C2927E1E6B6005FB1FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D73C2827E1E6B6005FB1FA /* ViewController.swift */; };
@@ -16,6 +26,7 @@
 		79D73C3C27E1E6B8005FB1FA /* GolvaAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D73C3B27E1E6B8005FB1FA /* GolvaAppTests.swift */; };
 		79D73C4627E1E6B8005FB1FA /* GolvaAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D73C4527E1E6B8005FB1FA /* GolvaAppUITests.swift */; };
 		79D73C4827E1E6B8005FB1FA /* GolvaAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D73C4727E1E6B8005FB1FA /* GolvaAppUITestsLaunchTests.swift */; };
+		79FF4DC827F4629B00E407D3 /* ListFilterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79FF4DC727F4629B00E407D3 /* ListFilterVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +47,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		79ADF22D27E88919002229DD /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		79ADF23127E89607002229DD /* sheetDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sheetDetailVC.swift; sourceTree = "<group>"; };
+		79ADF23327E8A6C7002229DD /* photoDetailCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = photoDetailCollectionViewCell.swift; sourceTree = "<group>"; };
+		79B6932427E5E4F300AF3FBA /* SliderCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderCollectionViewCell.swift; sourceTree = "<group>"; };
+		79B6932627E5E67300AF3FBA /* fotoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fotoData.swift; sourceTree = "<group>"; };
+		79C0456527F1C91D002DAC4C /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
+		79C0456727F1C93A002DAC4C /* ListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListVC.swift; sourceTree = "<group>"; };
+		79CA9F6427EF123300636707 /* RezervasyonVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RezervasyonVC.swift; sourceTree = "<group>"; };
 		79D73C2127E1E6B6005FB1FA /* GolvaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GolvaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79D73C2427E1E6B6005FB1FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		79D73C2627E1E6B6005FB1FA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +68,7 @@
 		79D73C4127E1E6B8005FB1FA /* GolvaAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GolvaAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		79D73C4527E1E6B8005FB1FA /* GolvaAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GolvaAppUITests.swift; sourceTree = "<group>"; };
 		79D73C4727E1E6B8005FB1FA /* GolvaAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GolvaAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		79FF4DC727F4629B00E407D3 /* ListFilterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListFilterVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +76,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79ADF24327E8B9E6002229DD /* GoogleMaps in Frameworks */,
+				79ADF24527E8B9E6002229DD /* GooglePlaces in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,9 +125,18 @@
 				79D73C2627E1E6B6005FB1FA /* SceneDelegate.swift */,
 				79D73C2827E1E6B6005FB1FA /* ViewController.swift */,
 				79D73C2A27E1E6B6005FB1FA /* Main.storyboard */,
+				79ADF23327E8A6C7002229DD /* photoDetailCollectionViewCell.swift */,
 				79D73C2D27E1E6B7005FB1FA /* Assets.xcassets */,
 				79D73C2F27E1E6B8005FB1FA /* LaunchScreen.storyboard */,
 				79D73C3227E1E6B8005FB1FA /* Info.plist */,
+				79B6932427E5E4F300AF3FBA /* SliderCollectionViewCell.swift */,
+				79B6932627E5E67300AF3FBA /* fotoData.swift */,
+				79ADF22D27E88919002229DD /* DetailVC.swift */,
+				79ADF23127E89607002229DD /* sheetDetailVC.swift */,
+				79CA9F6427EF123300636707 /* RezervasyonVC.swift */,
+				79C0456527F1C91D002DAC4C /* ListTableViewCell.swift */,
+				79C0456727F1C93A002DAC4C /* ListVC.swift */,
+				79FF4DC727F4629B00E407D3 /* ListFilterVC.swift */,
 			);
 			path = GolvaApp;
 			sourceTree = "<group>";
@@ -143,6 +174,10 @@
 			dependencies = (
 			);
 			name = GolvaApp;
+			packageProductDependencies = (
+				79ADF24227E8B9E6002229DD /* GoogleMaps */,
+				79ADF24427E8B9E6002229DD /* GooglePlaces */,
+			);
 			productName = GolvaApp;
 			productReference = 79D73C2127E1E6B6005FB1FA /* GolvaApp.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +250,9 @@
 				Base,
 			);
 			mainGroup = 79D73C1827E1E6B6005FB1FA;
+			packageReferences = (
+				79ADF24127E8B9E6002229DD /* XCRemoteSwiftPackageReference "GoogleMaps-SP" */,
+			);
 			productRefGroup = 79D73C2227E1E6B6005FB1FA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -259,8 +297,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				79D73C2927E1E6B6005FB1FA /* ViewController.swift in Sources */,
+				79C0456827F1C93A002DAC4C /* ListVC.swift in Sources */,
+				79ADF23427E8A6C7002229DD /* photoDetailCollectionViewCell.swift in Sources */,
+				79CA9F6527EF123300636707 /* RezervasyonVC.swift in Sources */,
 				79D73C2527E1E6B6005FB1FA /* AppDelegate.swift in Sources */,
 				79D73C2727E1E6B6005FB1FA /* SceneDelegate.swift in Sources */,
+				79B6932527E5E4F300AF3FBA /* SliderCollectionViewCell.swift in Sources */,
+				79ADF23227E89607002229DD /* sheetDetailVC.swift in Sources */,
+				79FF4DC827F4629B00E407D3 /* ListFilterVC.swift in Sources */,
+				79B6932727E5E67300AF3FBA /* fotoData.swift in Sources */,
+				79ADF22E27E88919002229DD /* DetailVC.swift in Sources */,
+				79C0456627F1C91D002DAC4C /* ListTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -598,6 +645,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		79ADF24127E8B9E6002229DD /* XCRemoteSwiftPackageReference "GoogleMaps-SP" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/YAtechnologies/GoogleMaps-SP.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		79ADF24227E8B9E6002229DD /* GoogleMaps */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 79ADF24127E8B9E6002229DD /* XCRemoteSwiftPackageReference "GoogleMaps-SP" */;
+			productName = GoogleMaps;
+		};
+		79ADF24427E8B9E6002229DD /* GooglePlaces */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 79ADF24127E8B9E6002229DD /* XCRemoteSwiftPackageReference "GoogleMaps-SP" */;
+			productName = GooglePlaces;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 79D73C1927E1E6B6005FB1FA /* Project object */;
 }
